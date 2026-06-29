@@ -33,23 +33,17 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set Your Anthropic API Key
-Copy the example config and add your key:
-```bash
-copy config.example.json config.json
-```
-Then open `config.json` and fill in your key:
+Open `config.json` and add your key:
 ```json
 {
   "api_key": "sk-ant-api03-..."
 }
 ```
-Or set it as an environment variable instead:
+Or set it as an environment variable:
 ```bash
 set ANTHROPIC_API_KEY=sk-ant-api03-...
 ```
 Get an API key at: https://console.anthropic.com
-
-> ⚠️ **Never commit `config.json`** — it's in `.gitignore` to protect your key.
 
 ### 4. Run
 Double-click `launch.bat`  

@@ -1,0 +1,8 @@
+{
+  set ANTHROPIC_API_KEY=sk-ant-api03-...
+  "hotkey_toggle": "f1",
+  "hotkey_refresh": "f2",
+  "hotkey_quit": "esc",
+  "overlay_opacity": 0.92,
+  "font_size": 9
+}

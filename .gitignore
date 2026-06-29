@@ -1,0 +1,78 @@
+# NP2 Translator - Git Ignore
+
+# ========================
+# API Keys / Secrets
+# ========================
+# Never commit your real config with API key
+config.json
+
+# Keep the template safe to commit
+!config.example.json
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.hypothesis/
+
+# ========================
+# Windows
+# ========================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ========================
+# IDEs & Editors
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ========================
+# Misc
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
